@@ -2,7 +2,7 @@
 import { Container } from "react-bootstrap";
 // Import our custom components
 import Navbar from "../components/Navbar";
-// import NewRecipeModal from "../components/NewRecipeModal";
+import NewRecipeModal from "../components/NewRecipeModal";
 // Import React Router components for navigation
 import { Outlet } from "react-router-dom";
 // Import React hooks for managing component state
@@ -30,10 +30,10 @@ function Layout() {
 
       {/* Modal for creating new recipes */}
       {/* This modal can be opened from the navbar */}
-      {/* <NewRecipeModal
+      <NewRecipeModal
         show={showNewRecipeModal}
         onHide={() => setShowNewRecipeModal(false)}
-      /> */}
+      />
     </div>
   );
 }

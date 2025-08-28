@@ -1,9 +1,9 @@
 import AllRecipesPage from "./pages/AllRecipesPage";
-import ContactPage from "./components/ContactPage";
-import FavoritesPage from "./components/FavoritesPage";
+import ContactPage from "./pages/ContactPage";
+import FavoritesPage from "./pages/FavoritesPage";
 import HomePage from "./pages/HomePage";
 import Layout from "./components/Layout";
-import SingleRecipePage from "./components/SingleRecipePage";
+import SingleRecipePage from "./pages/SingleRecipePage";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
